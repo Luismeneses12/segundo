@@ -1,0 +1,32 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background-color: whitesmoke;
+
+}
+form{
+    text-decoration: dotted;
+    position: relative;
+    border-radius: 5px;
+    border-color: black;
+    display: grid;
+    grid: column 1px;;
+    width: 200px;
+    text-align: center;
+}
+input{
+    margin: 10px;
+    padding: 20px;
+}
+button{
+     margin: 10px;
+     padding: 10px;
+     color: aqua;
+}
+button:hover{
+ background-color: blue;
+}
